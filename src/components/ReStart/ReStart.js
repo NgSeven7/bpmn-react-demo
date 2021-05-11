@@ -5,7 +5,7 @@
  */
 import React, { Component } from 'react';
 // 引入相关的依赖
-import BpmnModeler from '../../bpmnLib/lib/Modeler'
+import BpmnModeler from '../../lib/bpmn/lib/Modeler'
 import propertiesProviderModule from 'bpmn-js-properties-panel/lib/provider/camunda'
 // import { xmlStr } from '../../mock/xmlStr'
 import xml from '../Bpmn/xml.js';

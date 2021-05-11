@@ -3,7 +3,7 @@
  * @Date:   2020-03-20 11:12:57
  * @Desc: 
  */
-import Modeler from '../../../bpmnLib/lib/Modeler';
+import Modeler from '../../../lib/bpmn/lib/Modeler';
 import inherits from 'inherits';
 import CustomModule from './custom';
 
