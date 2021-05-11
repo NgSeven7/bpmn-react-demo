@@ -1,14 +1,14 @@
 import React from "react";
-import BpmnModeler from "bpmn-js/lib/Modeler";
+import BpmnModeler from "../bpmnLib/lib/Modeler";
 import propertiesPanelModule from "bpmn-js-properties-panel";
 import propertiesProviderModule from "bpmn-js-properties-panel/lib/provider/camunda";
 import customTranslate from "./customTranslate/customTranslate";
 import camundaModdleDescriptor from "camunda-bpmn-moddle/resources/camunda";
 import "./Bpmn.css";
-import "bpmn-js/dist/assets/diagram-js.css";
-import "bpmn-js/dist/assets/bpmn-font/css/bpmn-embedded.css";
-import "bpmn-js/dist/assets/bpmn-font/css/bpmn.css";
-import "bpmn-js/dist/assets/bpmn-font/css/bpmn-codes.css";
+import "../bpmnLib/dist/assets/diagram-js.css";
+import "../bpmnLib/dist/assets/bpmn-font/css/bpmn-embedded.css";
+import "../bpmnLib/dist/assets/bpmn-font/css/bpmn.css";
+import "../bpmnLib/dist/assets/bpmn-font/css/bpmn-codes.css";
 import "bpmn-js-properties-panel/dist/assets/bpmn-js-properties-panel.css";
 import { bpmnXML } from "./xml";
 

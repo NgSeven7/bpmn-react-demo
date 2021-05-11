@@ -4,9 +4,9 @@
  * @Desc: bpmnjs demo
  */
 import React, { Component } from 'react';
-import bpmnjs from 'bpmn-js';
+import bpmnjs from '../../bpmnLib';
 import { Tabs } from 'antd';
-import BpmnModeler from 'bpmn-js/lib/Modeler';
+import BpmnModeler from '../../bpmnLib/lib/Modeler';
 import propertiesPanelModule from 'bpmn-js-properties-panel'
 import propertiesProviderModule from 'bpmn-js-properties-panel/lib/provider/camunda'
 import camundaModdleDescriptor from 'camunda-bpmn-moddle/resources/camunda';
@@ -17,10 +17,10 @@ import CustomModeler from './customModeler'; // 完全自定义配置
 // import xml from './xml.js';
 import { xmlStr } from '../../mock/xmlStr';
 // 左侧工具栏样式
-import 'bpmn-js/dist/assets/diagram-js.css';
-import 'bpmn-js/dist/assets/bpmn-font/css/bpmn.css';
-import 'bpmn-js/dist/assets/bpmn-font/css/bpmn-codes.css';
-import 'bpmn-js/dist/assets/bpmn-font/css/bpmn-embedded.css';
+import '../../bpmnLib/dist/assets/diagram-js.css';
+import '../../bpmnLib/dist/assets/bpmn-font/css/bpmn.css';
+import '../../bpmnLib/dist/assets/bpmn-font/css/bpmn-codes.css';
+import '../../bpmnLib/dist/assets/bpmn-font/css/bpmn-embedded.css';
 import 'bpmn-js-properties-panel/dist/assets/bpmn-js-properties-panel.css' // 右边属性栏样式
 import './style.css';
 
